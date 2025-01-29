@@ -26,7 +26,12 @@ header div {
 .menu{
     color: white;
 display:flex
+list-style-type: none;
 
+}
+
+.menu li:hover {
+    color: #1ed760;
 }
 
 .menu li {
@@ -51,8 +56,9 @@ display:flex
 }
 
 .section-premium h2 {
-font-size: 30px;
+font-size: 20px;
 padding-bottom: 40px; 0;
+font-weight: normal; 
     
 }
 
@@ -66,6 +72,7 @@ padding-bottom: 40px; 0;
 .section-premium a {
     color: white;
 
+
 }
 
 #btn-comece-agora {
@@ -76,6 +83,10 @@ border-radius: 90px;
 border: none;
 border: 1px solid black;
 
+}
+
+#btn-comece-agora:hover {
+    padding: 20px 40px;
 }
 
 #btn-ver-planos {
@@ -120,7 +131,7 @@ padding:0 40px 70px 40px;
     width: 100%;
     margin: auto;
     text-align: center;
-    padding: 0 0 200px 0;
+    padding: 0 0 40px 0;
 }
 
 .section-chose-plan div {
@@ -155,6 +166,10 @@ padding:0 40px 70px 40px;
 }
 .section-plan {
     display: flex;
+    height: 800px;
+    max-width: 900px;
+    margin: -30px;
+    padding: 0 px;
 }
 
 .plan-style {
@@ -172,6 +187,8 @@ margin: 10px;
 justify-content: flex-start;
 gap:5px ;
 align-items: center; 
+margin: 20px;
+
 }
 
 .free-month {
@@ -219,12 +236,13 @@ border: none;
 border: 1px solid black;
 margin: auto;
 margin-bottom: 10px;
-display: inline-block;
+display:flex;
 width: auto;
 box-sizing: border-box;
 text-align: center;
 gap: 5px;
 align-items: center; 
+flex-wrap: wrap
 }
 
 .comece-agora-uni{
@@ -243,6 +261,7 @@ align-items: center;
     text-align: center;
     gap: 5px;
     align-items: center; 
+    flex-wrap: wrap
 }
     
 
@@ -262,5 +281,41 @@ text-align: left;
     text-align: left; 
     
 
+}
 
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+padding: 70px 10%;
+}
+
+footer div ul {
+  color: #919496;
+  list-style-type: none;  
+} 
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer li:nth-child(1) {
+   padding-bottom: 20px;   
+}
+
+footer li {
+    padding:10px 20px;
+font-size: 10px;
+}
+
+footer img {
+    width: 150px;
+   padding-right: 20px;
+}
+
+footer i {
+    color: white;
+   font-size: 20px;
+padding:0 10px;
 }
