@@ -6,22 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Spotify</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel= "stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <section>
-        <i class="bi bi-spotify"></i>
+        <i class="bi bi-spotify logo-spotify"></i>
         <h1>Entrar no Spotify</h1>
-        <div>
+        
+        <div class="social-butons">
             <button> <i class="bi bi-google"></i> <span>Continuar com o Google </span> </button>
             <button> <i class="bi bi-facebook"></i> <span>Continuar com o Facebook </span> </button>
             <button> <i class="bi bi-apple"></i> <span>Continuar com a Apple </span> </button>
             <button> <span>Continuar com um número de Telefone </span> </button>
         </div>
 
+<hr>
+
         <form action="">
             <label for="email-or-username">E-mail ou nome de usuário</label>
-            <input type="text" id="email-or-username">
+            <input type="text" id="email-or-username" name="email" placeholder="E-mail ou nome de usuário" required>
 
             <label for="password">Senha </label>
             <input type="password" id="password">
@@ -32,12 +39,12 @@
 
         <a href="#">Esqueceu sua senha?</a>
 
-        <p>Não tem uma conta? <a href="#">Inscrever-se no Spotify</a></p>
+        <p id="no-account">Não tem uma conta? <a href="#">Inscrever-se no Spotify</a></p>
 
     </section>
 
     <footer>
-<p> Este site é protegido pelo reCAPTCHA e está sujeito a <a href="#">Política de Privacidade</a> e dos <a href="#">Termos de Serviço do Google</a>.</p>
+<p id="rodape"> Este site é protegido pelo reCAPTCHA e está sujeito a <a href="#">Política de Privacidade</a> e dos <a href="#">Termos de Serviço do Google</a>.</p>
  </footer>
 
 </body>

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+font-family: 'Montserrat', sans-serif;
+}
+
+body {
+background-color: #252525;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+color: white;
+
+}
+
+section {
+flex:1 ;
+background-color:#121212;
+width: 767px;
+margin: 20px auto;
+border: 1px solid #121212;
+border-radius: 5px;
+padding: 20px 15px;
+text-align: center;
+
+
+}
+
+.logo-spotify {
+    font-size: 30px;
+ 
+}
+
+section h1 {
+   font-size: 30px;
+   margin: 0 0 15px 0;
+
+}
+
+.social-butons {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.social-butons button{
+    background-color:#121212;
+    color: white;
+    width: 45%;
+    margin:5px auto;
+padding: 10px 35px;
+border: 1px solid white;
+border-radius: 100px;
+display: flex;
+}
+
+.social-butons button span {
+    margin:auto; 
+}
+
+hr {
+    margin: 15px;
+    border: 0;
+    border-top: 1px solid #252525;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+
+form label {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+form button {
+margin: 25px 0;
+background-color: #3BE477;
+border: 1px solid;
+border-radius: 100px;
+padding: 13px;
+font-size: 14px;
+font-weight: 700;
+
+}
+
+form input {
+    padding:10px 5px;
+    background-color: #121212;
+    color: white;
+    font-weight: 550;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+
+ a {
+ color: white;
+
+}
+
+#no-account {
+    color: #b3b3b3;
+}
+
+footer  {
+    background-color:#121212;
+text-align: center;
+padding: 20px 30px;
+font-size: 10px;
+}
+
