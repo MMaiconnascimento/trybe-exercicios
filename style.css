@@ -1,0 +1,206 @@
+body {
+    background-color: rgb(253, 251, 251);
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho {
+    background-color: hsl(234, 90%, 27%);
+    /* Cor de fundo da barra */
+    color: white;
+    /* Cor do texto */
+    padding: 2px;
+    /* Espaçamento interno */
+    top: 0;
+    /* Fica no topo */
+    left: 0;
+    /* Fica alinhado à esquerda */
+    width: 100%;
+    /* Preenche a largura da página */
+    z-index: 1000;
+    /* Garante que a barra ficará sobre outros elementos */
+    position: fixed;
+}
+
+#cabecalho h1 {
+    display: flex;
+    justify-content: space-around
+}
+
+#minha_foto {
+    width: 200px;
+    /* Define a largura da foto */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    padding: 120px 0 5px 10px;
+  
+}
+
+.foto h3 {
+    padding: 0 0 0 60px;  
+font-size: 15px;
+}
+
+#licoes_aprendidas {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#licoes_aprendidas h2 {
+    font-size: 20px;
+  margin-right: 20px;
+  margin-left: -20px;
+    
+}
+
+#licoes_a_aprender {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+}
+
+#licoes_a_aprender h2 {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.lista1 {
+    background-color: #f4f4f4;
+    /* Cor de fundo para as caixas */
+    padding: 20px;
+    /* Espaço interno */
+    border-radius: 10px;
+    /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra para profundidade */
+    max-width: 500px;
+    /* Largura máxima da caixa */
+    margin: 0px auto;
+    /* Diminuído o espaçamento entre as caixas */
+    margin-right: 20PX;
+    margin-left: 20PX;
+
+}
+
+.lista2 {
+    background-color: #f4f4f4;
+    /* Cor de fundo para as caixas */
+    padding: 20px;
+    /* Espaço interno */
+    border-radius: 10px;
+    /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra para profundidade */
+    max-width: 355px;
+    /* Largura máxima da caixa */
+    margin: 0 auto;
+    /* Diminuído o espaçamento entre as caixas */
+    margin-right: 20PX;
+    margin-left: 20PX;
+
+}
+
+.listas {
+    display: flex;
+    padding: 0 50px;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+footer {
+    background-color: #333;
+    /* Cor de fundo do rodapé */
+    color: white;
+    /* Cor do texto */
+    text-align:left;
+    /* Centraliza o texto */
+    padding: 5px 0;
+    /* Espaçamento no topo e no fundo */
+    position: fixed;
+    /* Fixa o rodapé na parte inferior da página */
+    bottom: 0;
+    /* Coloca o rodapé na parte inferior da tela */
+    width: 100%;
+    /* Faz o rodapé ocupar toda a largura da tela */
+
+}
+
+
+.botao {
+
+    margin-bottom: 90px;
+    background-color: #0077b5;
+    /* Cor do fundo do botão (cor do LinkedIn) */
+    color: white;
+    /* Cor do texto */
+    border: none;
+    /* Remove a borda padrão */
+    padding: 15px 30px;
+    /* Tamanho do botão */
+    font-size: 20px;
+    /* Tamanho da fonte */
+    cursor: pointer;
+    /* Cursor em forma de mãozinha ao passar o mouse */
+    border-radius: 8px;
+    /* Cantos arredondados */
+    transition: background-color 0.3s;
+    /* Transição suave para a cor do fundo */
+    align-items: center;
+    margin-top: -100px;
+    margin-left: 480px;
+    text-align: center;
+}
+
+.botao:hover {
+    background-color: blue;
+
+}
+
+#meu-aprendizado h2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -30px;
+
+}
+
+#meu-aprendizado p {
+    display: flex;
+    width: 90%;
+    padding: 0 0 0 20px;
+    text: center;
+    margin: 20px auto;
+    font-weight: normal;
+    /* Remove o negrito */
+}
+
+#meu-aprendizado {
+    margin-bottom: 100px;
+    padding: 60px 0 100px 0;
+
+}
+
+#sobre-mim {
+    margin: 20px auto;
+    font-weight: normal;
+    margin-top: -200px;
+    margin-bottom: 100px;
+    padding-bottom: 40px;
+    width: 88%;
+}
+
+.eu {
+    background-color: hsla(0, 11%, 95%, 0.877);
+    padding: 15px 0 80px 0;
+}
