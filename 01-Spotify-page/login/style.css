@@ -100,18 +100,16 @@ form input {
 
 
  a {
- color: white;
+ @apply text-white; 
 
 }
 
 #no-account {
-    color: #b3b3b3;
+  @apply bg-spotify-light-gray; 
 }
 
 footer  {
-    background-color:#121212;
-text-align: center;
-padding: 20px 30px;
-font-size: 10px;
+    @apply bg-spotify-black text-center py-5 px-7 text-xs;
+
 }
 
