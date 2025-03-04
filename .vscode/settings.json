@@ -1,4 +1,8 @@
 {
+<<<<<<< HEAD
     "liveServer.settings.port": 5501,
     "git.ignoreLimitWarning": true
+=======
+    "liveServer.settings.port": 5502
+>>>>>>> ab64d8543320953b453a1d24c63407143cd37a1d
 }
