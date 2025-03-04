@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-spotify-gray flex flex-col min-h-screen text-white; 
+}
+
+section {
+    @apply flex-1 bg-spotify-black w-[767px] my-5 mx-auto 
+    border border-solid border-spotify-black rounded py-5 px-4 text-center; 
+}
+
+.logo-spotify {
+    @apply text-3xl; 
+}
+
+section h1 {
+    @apply text-3xl my-auto mx-4;  
+}
+
+.social-butons {
+    @apply flex flex-col;
+}
+
+.social-butons button {
+    @apply bg-spotify-black text-white w-1/2 my-1 mx-auto 
+    py-2.5 px-9 border border-solid border-white rounded-full flex;
+}
+
+.social-butons button span {
+    @apply m-auto; 
+}
+
+hr {
+    @apply m-4 border-0 border-t border-solid border-t-spotify-gray;
+}
+
+form {
+    @apply flex flex-col w-[60%] m-auto;
+}
+
+form label {
+    @apply text-left text-xs font-bold my-2 mx-0;
+}
+
+form button {
+    @apply my-6 mx-0 bg-spotify-green border border-solid 
+    rounded-full p-3 text-sm font-bold;
+}
+
+form input {
+    @apply py-2 px-1 bg-spotify-black text-white font-medium 
+    border border-solid border-white rounded-sm; 
+}
+
+a {
+    @apply text-white; 
+    
+}
+
+#no-account {
+    color: #b3b3b3;
+}
