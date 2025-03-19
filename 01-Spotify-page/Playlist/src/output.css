@@ -553,3 +553,77 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+
+.table {
+  display: table;
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+table {
+  margin-top: 2.5rem;
+  width: 100%;
+  text-align: left;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity, 1));
+}
+
+thead {
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(75 85 99 / var(--tw-border-opacity, 1));
+}
+
+thead th {
+  padding-bottom: 0.5rem;
+  font-weight: 200;
+}
+
+tbody tr:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity, 1));
+}
+
+tbody tr:first-child td {
+  padding-top: 0.75rem;
+}
+
+tbody tr td {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+th:first-child , td:first-child {
+  padding-left: 0.75rem;
+}
+
+th:last-child , td:last-child {
+  padding-right: 1rem;
+  text-align: right;
+}
+
+tbody tr td.song {
+  display: flex;
+  flex-direction: row;
+}
+
+tbody tr td.song img {
+  margin-right: 0.5rem;
+  height: 2rem;
+}
+
+tbody tr td div p:first-child {
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
